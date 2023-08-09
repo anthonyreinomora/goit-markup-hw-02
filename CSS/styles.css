@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-tex-color: rgb(33, 33, 33);
+  --secondary-text-color: rgb(117, 117, 117);
+  --third-text-color: rgb(255, 255, 255);
+  --accent-color: rgb(33, 150, 243);
+  --primary-background-color: rgb(255, 255, 255);
+  --secondary-background-color: rgb(47, 48, 58);
+  --third-background-color: rgb(245, 244, 250);
+  --fourth-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-tex-color);
+  background-color: var(--primary-background-color);
+}
+.iconpageblue {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+}
+.link {
+  text-decoration: none;
+}
+.navigationpage-estudio {
+  font-weight: 500;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.navigationpage-estudio:hover {
+  color: var(--accent-color);
+}
+.navigationpage-portafolio {
+  font-weight: 500;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.navigationpage-portafolio:hover {
+  color: var(--accent-color);
+}
+.navigationpage-contactos {
+  font-weight: 500;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.navigationpage-contactos:hover {
+  color: var(--accent-color);
+}
+.navigationpage .curren {
+  color: var(--accent-color);
+}
+.navigationmail {
+  color: var(--secondary-text-color);
+  line-height: 1.17;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.navigationmail:hover {
+  color: var(--accent-color);
+}
+.navigationtel {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: 1.17;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.navigationtel:hover {
+  color: var(--accent-color);
+}
+.main-title-big {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--third-text-color);
+  background-color: var(--secondary-background-color);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.main-button {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.service-guarantee {
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.service-explication {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.performance-images {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.profesional-team {
+  font-weight: 500;
+  line-height: 1.17;
+}
+.profesional-dedication {
+  line-height: 1.17;
+  color: var(--secondary-text-color);
+}
+.address {
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+.address-down {
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--fourth-text-color);
+}
+.address-information {
+  background-color: var(--secondary-background-color);
+}
+.button-filters {
+  background-color: var(--third-background-color);
+  color: var(--primary-tex-color);
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button-filters:hover {
+  background-color: var(--accent-color);
+}
+.projects-portfolio {
+  color: var(--primary-tex-color);
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+}
+.project-dependency {
+  color: var(--secondary-text-color);
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
