@@ -37,6 +37,9 @@ body {
 .navigationpage-estudio:hover {
   color: var(--accent-color);
 }
+.navigationpage-estudio:focus {
+  color: var(--accent-color);
+}
 .navigationpage-portafolio {
   font-weight: 500;
   line-height: 1.14;
@@ -46,6 +49,9 @@ body {
 .navigationpage-portafolio:hover {
   color: var(--accent-color);
 }
+.navigationpage-portafolio:focus {
+  color: var(--accent-color);
+}
 .navigationpage-contactos {
   font-weight: 500;
   line-height: 1.14;
@@ -53,6 +59,9 @@ body {
   letter-spacing: 0.02em;
 }
 .navigationpage-contactos:hover {
+  color: var(--accent-color);
+}
+.navigationpage-contactos:focus {
   color: var(--accent-color);
 }
 .navigationpage .curren {
@@ -68,6 +77,9 @@ body {
 .navigationmail:hover {
   color: var(--accent-color);
 }
+.navigationmail:focus {
+  color: var(--accent-color);
+}
 .navigationtel {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -78,14 +90,20 @@ body {
 .navigationtel:hover {
   color: var(--accent-color);
 }
+.navigationtel:focus {
+  color: var(--accent-color);
+}
+.main-title {
+  background-color: var(--secondary-background-color);
+}
 .main-title-big {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: var(--third-text-color);
-  background-color: var(--secondary-background-color);
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  background-color: var(--secondary-background-color);
 }
 .main-button {
   background-color: var(--accent-color);
@@ -128,25 +146,40 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+.address:hover {
+  background-color: var(--accent-color);
+}
+.address:focus {
+  background-color: var(--accent-color);
+}
 .address-down {
   line-height: 1.71;
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--fourth-text-color);
 }
+.address-down:hover {
+  background-color: var(--accent-color);
+}
+.address-down:focus {
+  background-color: var(--accent-color);
+}
 .address-information {
   background-color: var(--secondary-background-color);
 }
 .button-filters {
   background-color: var(--third-background-color);
-  color: var(--primary-tex-color);
-  font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
 .button-filters:hover {
   background-color: var(--accent-color);
+  color: var(--primary-tex-color);
+}
+.button-filters:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-tex-color);
 }
 .projects-portfolio {
   color: var(--primary-tex-color);
